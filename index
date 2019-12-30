@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="image" href="favicon.ico">
+<title>Med's Tree Removal</title>
+<meta name="description" content="Med's Tree Removal is family owned and operated, serving Harnett, Johnston, Wake, Cumberland, and surrounding areas. Our business is insured, and we guarantee that you will be satisfied with any work we do for you. We have multiple vehicles and equipment that allow us to serve a variety of needs in your home or business.">
+<meta name="keywords" content="Tree,Removal,lawn care,Yard,Stump Removal,Lot Clearing,Trash Removal,Debris Clean-up,Gravel,Mulch,Tree Trimming,Trimming,Tree Removal,Lawn,Landscaping">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="med.css">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+
+<body class="w3-light-grey">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-animate-right w3-top w3-text-light-grey w3-medium" style="z-index:3;width:250px;font-weight:bold;display:none;right:0;" id="mySidebar">
+  <a href="javascript:void()" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-32">Close</a> 
+  <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">Photos</a> 
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">About</a> 
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">Contact</a>
+  <a href="https://www.facebook.com/MEDS-TREE-Removal-1080264825320660/" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16" target="_blank"><i class="fa fa-facebook-square w3-large"></i> Med's Tree Removal</a>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-white w3-large w3-padding-16" id="navbar">
+  <span class="w3-left w3-padding">Med's Tree Removal </span>
+  <a href="javascript:void(0)" class="w3-right w3-button w3-white" onclick="w3_open()">&#9776;</a>
+  <script language="JavaScript" src="scripts/gen_validatorv31.js" type="text/javascript"></script>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content" style="max-width:1600px;margin-top:83px">
+  
+<!-- Images used to open the lightbox -->
+<div class="row">
+  <div class="column">
+    <div class="container">
+    <img src="Pictures/TreeBA1.jpg" onclick="openModal();currentSlide(1)" class="image" style="width: 100%; height: 100%;">
+  </div>
+</div>
+  <div class="column">
+    <div class="container">
+    <img src="Pictures/TreeBA2.jpg" onclick="openModal();currentSlide(2)" class="image" style="width: 100%; height: 100%;">
+  </div>
+</div>
+  <div class="column">
+    <div class="container">
+    <img src="Pictures/TreeBA3.jpg" onclick="openModal();currentSlide(3)" class="image" style="width: 100%; height: 100%;">
+  </div>
+</div>
+  <div class="column">
+    <div class="container">
+    <img src="Pictures/TreeBA4.jpg" onclick="openModal();currentSlide(4)" class="image" style="width: 100%; height: 100%;">
+  </div>
+</div>
+</div>
+<div class="row">
+  <div class="column">
+    <div class="container">
+    <img src="Pictures/TreeBA5.jpg" onclick="openModal();currentSlide(5)" class="image" style="width: 100%; height: 100%;">
+  </div>
+</div>
+  <div class="column">
+    <div class="container">
+    <img src="Pictures/TreeBA6.png" onclick="openModal();currentSlide(6)" class="image" style="width: 100%; height: 100%;">
+  </div>
+</div>
+  <div class="column">
+    <div class="container">
+    <img src="Pictures/TreeBA7.png" onclick="openModal();currentSlide(7)" class="image" style="width: 100%; height: 100%;">
+  </div>
+</div>
+  <div class="column">
+    <div class="container">
+    <img src="Pictures/TreeBA8.png" onclick="openModal();currentSlide(8)" class="image" style="width: 100%; height: 100%;">
+  </div>
+</div>
+</div>
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">-1-</div>
+      <img src="Pictures/TreeBA1.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">-2-</div>
+      <img src="Pictures/TreeBA2.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">-3-</div>
+      <img src="Pictures/TreeBA3.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">-4-</div>
+      <img src="Pictures/TreeBA4.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">-5-</div>
+      <img src="Pictures/TreeBA5.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">-6-</div>
+      <img src="Pictures/TreeBA6.png" style="width:100%;">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">-7-</div>
+      <img src="Pictures/TreeBA7.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">-8-</div>
+      <img src="Pictures/TreeBA8.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">-9-</div>
+      <img src="Pictures/equip1.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">-10-</div>
+      <img src="Pictures/equip2.JPG" style="width:100%">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">-11-</div>
+      <img src="Pictures/equip3.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">-12-</div>
+      <img src="Pictures/TreeBAV1.JPG" style="width:100%">
+    </div> 
+
+    <div class="mySlides">
+      <div class="numbertext">-13-</div>
+      <img src="Pictures/TreeBAV2.JPG" style="width:100%">
+    </div> 
+
+    <div class="mySlides">
+      <div class="numbertext">-14-</div>
+      <img src="Pictures/TreeBAV3.JPG" style="width:100%">
+    </div> 
+
+    <div class="mySlides">
+      <div class="numbertext">-15-</div>
+      <img src="Pictures/TreeBAV4.JPG" style="width:100%">
+    </div> 
+
+    <div class="mySlides">
+      <div class="numbertext">-16-</div>
+      <img src="Pictures/TreeBAV5.JPG" style="width:100%">
+    </div> 
+    
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+  <!--   <div class="caption-container">
+      <p id="caption"></p>
+    </div> -->
+
+    <!-- Thumbnail image controls -->
+    <!-- <div class="row">
+    <div class="column">
+      <img class="demo" src="Pictures/TreeBA1.jpg" onclick="currentSlide(1)" alt="" style="width: 100%; height: 100%">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="Pictures/TreeBA2.jpg" onclick="currentSlide(2)" alt="" style="width: 100%; height: 100%">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="Pictures/TreeBA3.jpg" onclick="currentSlide(3)" alt="" style="width: 100%; height: 100%">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="Pictures/TreeBA4.jpg" onclick="currentSlide(4)" alt="" style="width: 100%; height: 100%">
+    </div>
+
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo" src="Pictures/TreeBA5.jpg" onclick="currentSlide(5)" alt="" style="width: 100%; height: 100%">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="Pictures/TreeBA6.png" onclick="currentSlide(6)" alt="" style="width: 100%; height: 100%">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="Pictures/TreeBA7.png" onclick="currentSlide(7)" alt="" style="width: 100%; height: 100%">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="Pictures/TreeBA8.png" onclick="currentSlide(8)" alt="" style="width: 100%; height: 100%">
+    </div>
+  </div>
+ -->
+  </div>
+</div>
+
+
+  <!-- About section -->
+  <div class="w3-container w3-dark-grey w3-center w3-text-light-grey w3-padding-32" id="about">
+    <h3><b>Med's Tree Removal</b></h3>
+    <img src="Pictures/TreeVehic.jpg" alt="Me" class="w3-image w3-padding-32" style="height: auto; width: auto; border-radius: 50px;" >
+    <div class="w3-content w3-justify" style="max-width:600px">
+      <h4>About Med's Tree Removal</h4>
+      <p>Med's Tree Removal is family owned and operated, serving Harnett, Johnston, Wake, Cumberland, and surrounding areas. Our business is insured, and we guarantee that you will be satisfied with any work we do for you. We have multiple vehicles and equipment that allow us to serve a variety of needs in your home or business. The owner has over 20 years of experience in tree removal, landscaping, and gardening. Look through our photos, visit our <a href="https://www.facebook.com/MEDS-TREE-Removal-1080264825320660/" target="_blank">Facebook</a> for reviews, and set an appointment for a free estimate!</p>
+      <h4>Services Offered</h4>
+      <div class="row">
+      <div class="column2">
+      <ul>
+        <li>Tree Removal</li>
+        <li>Tree Trimming</li>
+        <li>Stump Removal</li>
+        <li>Debris Clean-up</li>
+      </ul>
+    </div>
+    <div class="column2">
+      <ul>
+        <li>Yard Clean-up</li>
+        <li>Gravel or Mulch</li>
+        <li>Lot Clearing</li>
+        <li>And Much More</li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- Contact section -->
+  <div class="w3-container w3-light-grey w3-padding-32 w3-padding-large" id="contact">
+    <div class="w3-content" style="max-width:600px">
+      <h4 class="w3-center"><b>Contact Us</b></h4>
+      <p>Please enter a general description of the job needed and include the best day and time to contact.</p>
+      <form method="post" name="myemailform" action="form-to-email.php">
+        <div class="w3-section">
+          <label>Name</label>
+          <input class="w3-input w3-border" type="text" name="name" required>
+        </div>
+        <div class="w3-section">
+          <label>Email</label>
+          <input class="w3-input w3-border" type="email" name="email" required>
+        </div>
+         <div class="w3-section">
+          <label>Address</label>
+          <input class="w3-input w3-border" type="text" name="date" required>
+        </div>
+        <div class="w3-section">
+          <label>Phone Number</label>
+          <input class="w3-input w3-border" type="tel" name="number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+        </div>
+        <div class="w3-section">
+          <label>Message</label>
+          <textarea class="w3-input w3-border" name="message" required=""></textarea>
+        </div>
+        <button type="submit" name="submit" class="w3-button w3-block w3-black w3-margin-bottom">Request appointment</button>
+      </form>
+    </div>
+  </div>
+
+<div style="text-align: center; margin-top: 30px">
+      <a href="https://www.facebook.com/MEDS-TREE-Removal-1080264825320660/" target="_blank"><i class="fa fa-facebook-square w3-large"> Med's Tree Removal</i></a>
+      <p><i class="fa fa-envelope w3-large"></i> MedsTreeRemoval@gmail.com</p>
+      <p><i class="fa fa-mobile w3-large" ></i> (910)-286-1052</p>
+  </div>
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Open the Modal
+function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
+
+// Close the Modal
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+
+</script>
+
+<script language="JavaScript">
+// Code for validating the form
+// Visit http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
+// for details
+var frmvalidator  = new Validator("myemailform");
+frmvalidator.addValidation("name","req","Please provide your name"); 
+frmvalidator.addValidation("email","req","Please provide your email"); 
+frmvalidator.addValidation("email","email","Please enter a valid email address"); 
+
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
+
+</body>
+</html>
